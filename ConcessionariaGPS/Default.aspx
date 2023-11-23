@@ -73,13 +73,16 @@
     <div class="containerMarca">
         <div class="cardMarcas">
             <h3 class="textMarcas">Navegue por nossas marcas</h3>
+        </div>
+
+        <div class="cardMarcas">
             <div class="boxMacas">
                 <a class="logoMarca">
                     <img src="https://gruposinal-prod.imgix.net/upload/2020/12/b78a935f-9390-4211-a5a5-108a8d421756-novo_logo_fiat.svg" alt="Fiat" width="60" height="40" />
 
                 </a>
                 <a class="logoMarca">
-                    <img src="https://gruposinal-prod.imgix.net/upload/makes/honda.svg" alt="Honda" width="60" height="40">
+                    <img src="https://gruposinal-prod.imgix.net/upload/makes/honda.svg" alt="Honda" width="60" height="40"/>
                 </a>
                 <a class="logoMarca">
                     <img src="https://gruposinal-prod.imgix.net/upload/2023/07/3a2a0e59-a13a-4d98-8e7e-909734522353-logo_ford.svg" alt="Ford" width="60" height="40" />
@@ -111,12 +114,15 @@
                 <a class="logoMarca">
                     <img src="https://gruposinal-prod.imgix.net/upload/2018/07/971b04dd-a625-45ba-8a7d-f48e88bcf21e-2.svg" alt="Seminovos" width="60" height="40" />
                 </a>
+                </div>
             </div>
+        </div>
+
             <div class="pesquisaMarcas">
                 <h2>Encontre seu veículo</h2>
                 <form>
-                    <div class="sc-7cb267bf-11 dsVoIg">
-                        <div class="sc-7cb267bf-6 eGdDrk">
+                    <div class="pesquisaV">
+                        <div class="Pesquisa">
                             <label>
                                 <select class="sc-7cb267bf-7 dJHxQG">
                                     <option value="">Marca<!-- --></option>
@@ -152,20 +158,23 @@
                         </div>
                         <div class="sc-7cb267bf-8 cymwix">
                             <label>
-                                <input placeholder="Busque por marca ou modelo do carro" class="sc-7cb267bf-9 kGZBOX" value=""></label>
+                                <input placeholder="Busque por marca ou modelo do carro" class="sc-7cb267bf-9 kGZBOX" value=""/>
+
+                            </label>
                         </div>
                     </div>
                     <div class="sc-7cb267bf-12 cVUKam">
                         <div class="sc-7cb267bf-10 exBUbL">
                             <label>
-                                <input type="checkbox" checked="">Novo<!-- --></label><label><input type="checkbox" checked="">Seminovo<!-- --></label>
+                                <input type="checkbox" checked=""/>Novo<!-- --></label><label>
+                                <input type="checkbox" checked=""/>Seminovo<!-- --></label>
                         </div>
                         <label class="submit">
-                            <input type="submit" value="Ver veículos"><svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.375 11h12.25M10.5 4.875 16.625 11 10.5 17.125" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label>
+                            <input type="submit" value="Ver veículos"/>
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.375 11h12.25M10.5 4.875 16.625 11 10.5 17.125" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label>
                     </div>
                 </form>
             </div>
-        </div>
-    </div>
+    
 </body>
 </html>

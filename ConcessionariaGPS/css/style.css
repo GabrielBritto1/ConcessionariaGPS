@@ -67,6 +67,7 @@ header .title-header {
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    height: 45px;
     padding: 41px 32px;
     border-bottom: 50px solid rgb(242, 242, 242);
 }
@@ -90,6 +91,8 @@ header .title-header {
 }
 
 .boxMarcas {
+    width: 100%;
+    height: 30px;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -100,10 +103,21 @@ header .title-header {
 }
 
 .logoMarca {
+    margin-left: 50px;
     cursor: pointer;
 }
 
 .pesquisaMarcas {
     padding: 23px 28px 38px;
     width: 100%;
+}
+
+.pesquisaV {
+    --fa-style-family-brands: 'Font Awesome 6 Brands';
+    --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+
+.Pesquisa{
+
 }
