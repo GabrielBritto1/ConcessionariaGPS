@@ -82,7 +82,7 @@
 
                 </a>
                 <a class="logoMarca">
-                    <img src="https://gruposinal-prod.imgix.net/upload/makes/honda.svg" alt="Honda" width="60" height="40"/>
+                    <img src="https://gruposinal-prod.imgix.net/upload/makes/honda.svg" alt="Honda" width="60" height="40" />
                 </a>
                 <a class="logoMarca">
                     <img src="https://gruposinal-prod.imgix.net/upload/2023/07/3a2a0e59-a13a-4d98-8e7e-909734522353-logo_ford.svg" alt="Ford" width="60" height="40" />
@@ -114,34 +114,34 @@
                 <a class="logoMarca">
                     <img src="https://gruposinal-prod.imgix.net/upload/2018/07/971b04dd-a625-45ba-8a7d-f48e88bcf21e-2.svg" alt="Seminovos" width="60" height="40" />
                 </a>
-                </div>
             </div>
         </div>
+    </div>
 
-            <div class="pesquisaMarcas">
-                <h2 id="frase">Encontre seu veículo</h2>
-                <form>
-                    <div class="pesquisaV">
-                        <div class="sc-7cb267bf-8 cymwix">
-                            <label>
-                                <svg xmlns="http://www.w3.org/2000/svg" id="lupa" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-</svg>
-                                <input placeholder="Busque o nome do carro" class="barra" value=""/>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="botao">
-                        <label class="submit">
-                            <input type="submit" value="Ver veículos" class="palavra"/>
-                            <svg xmlns="http://www.w3.org/2000/svg" id="seta" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-</svg>
-
-                        </label>
-                    </div>
-                </form>
+    <div class="pesquisaMarcas">
+        <h2 id="frase">Encontre seu veículo</h2>
+        <form>
+            <div class="pesquisaV">
+                <div class="sc-7cb267bf-8 cymwix">
+                    <label>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="lupa" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                        <input placeholder="Busque o nome do carro" class="barra" value="" />
+                    </label>
+                </div>
             </div>
-    
+            <div class="botao">
+                <label class="submit">
+                    <input type="submit" value="Ver veículos" class="palavra" />
+                    <svg xmlns="http://www.w3.org/2000/svg" id="seta" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+
+                </label>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
