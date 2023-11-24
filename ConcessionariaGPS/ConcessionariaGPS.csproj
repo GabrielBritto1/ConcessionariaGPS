@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\GPS_BD.mdf" />
+    <Content Include="App_Data\GPS_BD_log.ldf">
+      <DependentUpon>GPS_BD.mdf</DependentUpon>
+    </Content>
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="InfoCarro.aspx" />
