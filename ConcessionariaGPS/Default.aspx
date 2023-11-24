@@ -119,59 +119,26 @@
         </div>
 
             <div class="pesquisaMarcas">
-                <h2>Encontre seu veículo</h2>
+                <h2 id="frase">Encontre seu veículo</h2>
                 <form>
                     <div class="pesquisaV">
-                        <div class="Pesquisa">
-                            <label>
-                                <select class="sc-7cb267bf-7 dJHxQG">
-                                    <option value="">Marca<!-- --></option>
-                                    <option value="audi">AUDI (17)</option>
-                                    <option value="bmw">BMW (15)</option>
-                                    <option value="chery">CHERY (4)</option>
-                                    <option value="chevrolet">CHEVROLET (103)</option>
-                                    <option value="citroen">CITROËN (67)</option>
-                                    <option value="fiat">FIAT (183)</option>
-                                    <option value="ford">FORD (157)</option>
-                                    <option value="honda">Honda (33)</option>
-                                    <option value="hyundai">HYUNDAI (155)</option>
-                                    <option value="jac">JAC (9)</option>
-                                    <option value="jeep">JEEP (385)</option>
-                                    <option value="kia">KIA (19)</option>
-                                    <option value="land-rover">LAND ROVER (4)</option>
-                                    <option value="lexus">LEXUS (1)</option>
-                                    <option value="mercedes-benz">MERCEDES-BENZ (3)</option>
-                                    <option value="mini">MINI (3)</option>
-                                    <option value="mitsubishi">MITSUBISHI (18)</option>
-                                    <option value="nissan">NISSAN (58)</option>
-                                    <option value="peugeot">PEUGEOT (51)</option>
-                                    <option value="ram">RAM (18)</option>
-                                    <option value="renault">RENAULT (121)</option>
-                                    <option value="subaru">SUBARU (1)</option>
-                                    <option value="suzuki">SUZUKI (3)</option>
-                                    <option value="toyota">TOYOTA (22)</option>
-                                    <option value="volkswagen">VOLKSWAGEN (155)</option>
-                                    <option value="volvo">VOLVO (4)</option>
-                                </select><svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m6 9.5 6 6 6-6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label><label><select disabled="" class="sc-7cb267bf-7 dJHxQG"><option value="" selected="">Modelo<!-- --></option>
-                                </select><svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m6 9.5 6 6 6-6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label><label><select disabled="" class="sc-7cb267bf-7 dJHxQG"><option value="" selected="">Versão<!-- --></option>
-                                </select><svg width="20" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m6 9.5 6 6 6-6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label>
-                        </div>
                         <div class="sc-7cb267bf-8 cymwix">
                             <label>
-                                <input placeholder="Busque por marca ou modelo do carro" class="sc-7cb267bf-9 kGZBOX" value=""/>
-
+                                <svg xmlns="http://www.w3.org/2000/svg" id="lupa" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg>
+                                <input placeholder="Busque o nome do carro" class="barra" value=""/>
                             </label>
                         </div>
                     </div>
-                    <div class="sc-7cb267bf-12 cVUKam">
-                        <div class="sc-7cb267bf-10 exBUbL">
-                            <label>
-                                <input type="checkbox" checked=""/>Novo<!-- --></label><label>
-                                <input type="checkbox" checked=""/>Seminovo<!-- --></label>
-                        </div>
+                    <div class="botao">
                         <label class="submit">
-                            <input type="submit" value="Ver veículos"/>
-                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.375 11h12.25M10.5 4.875 16.625 11 10.5 17.125" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></label>
+                            <input type="submit" value="Ver veículos" class="palavra"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="seta" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg>
+
+                        </label>
                     </div>
                 </form>
             </div>

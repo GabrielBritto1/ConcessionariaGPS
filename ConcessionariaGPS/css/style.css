@@ -113,11 +113,32 @@ header .title-header {
 }
 
 .pesquisaV {
-    --fa-style-family-brands: 'Font Awesome 6 Brands';
-    --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+     
 }
 
 
-.Pesquisa{
+#seta, .palavra{
+    color: #ffffff;
+}
 
+#lupa {
+    color: #000000;
+    
+}
+
+.frase {
+    background-color: #b950dd;
+    text-align: center;
+}
+
+.botao {
+    background-color: #ff00e2;
+    text-align: center;
+    
 }
