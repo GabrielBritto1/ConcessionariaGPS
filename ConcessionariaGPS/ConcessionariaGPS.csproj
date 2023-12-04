@@ -81,10 +81,16 @@
     </Content>
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
+
     <Content Include="GPSEntity.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>GPSEntity.Context.cs</LastGenOutput>
     </Content>
+
+    <Content Include="img\propag1.png" />
+    <Content Include="img\propag2.png" />
+    <Content Include="img\propag3.png" />
+
     <Content Include="InfoCarro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -131,9 +137,11 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
