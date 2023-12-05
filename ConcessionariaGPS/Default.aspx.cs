@@ -13,5 +13,23 @@ namespace ConcessionariaGPS
         {
 
         }
+        internal static List<veiculo> ListarAparencias()
+        {
+            List<veiculo> aparencia = null;
+            try
+            {
+                var sub = new Subclasse();
+
+                using (var ctx = new RPGDBEntities())
+                {
+                    aparencia = ctx.Aparencias.OrderBy(
+                        x => x.IdAparencia).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            return aparencia;
+        }
     }
 }
