@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InfoCarro.aspx.cs" Inherits="ConcessionariaGPS.InfoCarro" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InfoCarro.aspx.cs" Inherits="ConcessionariaGPS.InfoCarro" %>
 
 <!DOCTYPE html>
 

@@ -15,8 +15,7 @@ namespace ConcessionariaGPS
     
     public partial class GPS_BDEntities : DbContext
     {
-        public GPS_BDEntities()
-            : base("name=GPS_BDEntities")
+        public GPS_BDEntities() : base ("name=GPS_BDEntities")
         {
         }
     
