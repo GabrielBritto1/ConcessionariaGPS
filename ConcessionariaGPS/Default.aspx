@@ -193,35 +193,36 @@
 </div>
 
 <footer class="sc-7908d218-0 bXuRJb">
-    <div class="sc-7908d218-1 eZIIQE"><div class="sc-7908d218-2 bRRDqx">
+    <div class="sc-7908d218-1 eZIIQE">
+        <div class="sc-7908d218-2 bRRDqx" >
         <a class="foo" href="Default.aspx">Concessionária GPS</a>
     
         <div class="sc-7908d218-5 kKCeyj">
-            <a href="/tabela-fipe" class="sc-7908d218-6 fGhtvJ">TABELA FIPE</a>
-            <a href="/vendas-diretas" class="sc-7908d218-6 fGhtvJ">VENDAS DIRETAS</a>
+            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-danger" type="submit">TABELA FIPE</a>
+            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-danger" type="submit">VENDAS DIRETAS</a>
         </div>
     </div>
-        <div class="sc-7908d218-7 jEGetU"><strong>INSTITUCIONAL</strong><ul><li>
-            <a href="/sobre">Quem somos</a></li>
-            <li><a href="">Nossas Lojas</a></li>
-            <li><a href="">Política de Privacidade</a></li>
-            <li><a href="">Cuidado com boletos falsos</a></li>
-            <li><a href="">Resolução Banco Central</a></li></ul>
+        <div class="sc-7908d218-7 jEGetU "><strong>INSTITUCIONAL</strong><ul><li>
+            <a class="nav-link disabled" aria-disabled="true" href="">Quem somos</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" href="">Nossas Lojas</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" href="">Política de Privacidade</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" href="">Cuidado com boletos falsos</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" href="">Resolução Banco Central</a></li></ul>
         </div>
         <div class="sc-7908d218-7 jEGetU"><strong>PÓS VENDAS</strong><ul><li>
-            <a href="">Revisão</a></li><li>
-                <a href="">Ofertas</a></li></ul>
+            <a class="nav-link disabled" aria-disabled="true" href="">Revisão</a></li><li>
+                <a class="nav-link disabled" aria-disabled="true" href="">Ofertas</a></li></ul>
         </div>
         <div class="sc-7908d218-7 jEGetU"><strong>OUTROS SERVIÇOS</strong><ul><li>
-            <a target="_blank" href="http://www.asticorretora.com.br/" rel="noreferrer noopender">Seguro</a></li>
-            <li><a target="_blank" href="" rel="noreferrer noopender">Consórcio</a></li>
-            <li><a target="_blank" href="" rel="noreferrer noopender">Blindados</a></li></ul>
+            <a class="nav-link disabled" aria-disabled="true" target="_blank" href="http://www.asticorretora.com.br/" rel="noreferrer noopender">Seguro</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" target="_blank" href="" rel="noreferrer noopender">Consórcio</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true" target="_blank" href="" rel="noreferrer noopender">Blindados</a></li></ul>
         </div>
         <div class="sc-7908d218-7 jEGetU"><strong>ATENDIMENTOS</strong><ul><li>
             <a href="/fale-conosco">Fale conosco</a></li>
-            <li><a target="_blank" href="" rel="noreferrer noopender">Trabalhe conosco</a></li>
+            <li><a class="nav-link disabled" aria-disabled="true"target="_blank" href="" rel="noreferrer noopender">Trabalhe conosco</a></li>
             <li><a href="mailto:gabriel_bianchibritto@hotmail.com">contato@GPS.com.br</a></li>
-            <li><a target="_blank" href="" rel="noreferrer noopender">Fornecedores</a></li></ul>
+            <li><a class="nav-link disabled" aria-disabled="true"target="_blank" href="" rel="noreferrer noopender">Fornecedores</a></li></ul>
         </div>
 </div>
 
