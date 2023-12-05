@@ -85,6 +85,11 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>GPSEntity.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="GPSEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>GPSEntity.cs</LastGenOutput>
+    </Content>
+    <Content Include="img\imagem-nao-cadastrada.jpg" />
     <Content Include="img\propag1.png" />
     <Content Include="img\propag2.png" />
     <Content Include="img\propag3.png" />
@@ -92,6 +97,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="blindagem.cs" />
+    <Compile Include="cambio.cs" />
+    <Compile Include="categoria.cs" />
+    <Compile Include="combustivel.cs" />
+    <Compile Include="cor.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -103,6 +113,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GPSEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GPSEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPSEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="GPSEntity.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -116,7 +131,13 @@
     <Compile Include="InfoCarro.aspx.designer.cs">
       <DependentUpon>InfoCarro.aspx</DependentUpon>
     </Compile>
+    <Compile Include="marca.cs" />
+    <Compile Include="modelo.cs" />
+    <Compile Include="opcional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usuario.cs" />
+    <Compile Include="veiculo.cs" />
+    <Compile Include="versao.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="GPSEntity.edmx">

@@ -148,45 +148,64 @@
         </form>
     </div>
 
-  <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleControls2" class="carousel slide w-100" data-bs-ride="carousel">
   <div class="carousel-inner">
+      
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+       <div class="d-flex flex-row">
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
     </div>
+   </div>
+
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+       <div class="d-flex flex-row">
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
+   </div>
+          
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 
-    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+    <div id="carouselExampleControls3" class="carousel slide w-100" data-bs-ride="carousel">
+        <div class="carousel-inner">
+   <div class="carousel-item active">
+       <div class="d-flex flex-row">
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
     </div>
+   </div>
+
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+       <div class="d-flex flex-row">
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
+      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+   </div>
+</div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -230,6 +249,6 @@
 
 </footer>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script></body>
 </html>
