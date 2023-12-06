@@ -44,7 +44,7 @@ header .navbar-brand .foo {
     margin-right: 2.5em;
 }
 
-header .navbar-brand:hover .foo:hover{
+header .navbar-brand:hover .foo:hover {
     color: #b950dd;
     transition: all 0.5s;
 }
@@ -127,17 +127,15 @@ header .title-header {
     align-items: center;
     justify-content: center;
     height: 45px;
-     
 }
 
 
-#seta, .palavra, .foo{
+#seta, .palavra, .foo {
     color: #ffffff;
 }
 
 #lupa {
     color: #000000;
-    
 }
 
 .frase {
@@ -148,13 +146,13 @@ header .title-header {
 .botao, .foo {
     background-color: #ff00e2;
     text-align: center;
-    
 }
 
 .bXuRJb {
     background: rgb(242, 242, 242);
     padding-top: 68px;
 }
+
 *, button, input {
     border: 0px;
     background: none;
@@ -166,7 +164,6 @@ header .title-header {
     display: block;
     text-decoration: none;
     width: 100px;
-   
 }
 
 .fGhtvJ {
@@ -212,6 +209,7 @@ header .title-header {
 .kKCeyj > a:last-child {
     margin-top: 16px;
 }
+
 .bRRDqx {
     display: flex;
     flex-direction: column;
@@ -235,7 +233,6 @@ header .title-header {
 
 .csfvCu {
     text-decoration: none;
-
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -260,11 +257,11 @@ header .title-header {
 }
 
 * {
-    
     padding: 0px;
     box-sizing: border-box;
     outline: none;
 }
+
 body {
     font-family: Inter;
     background: rgb(242, 242, 242);
@@ -289,3 +286,588 @@ body {
     --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
 }
 
+.hrrfwF {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 26px 30px 30px;
+    overflow: hidden;
+}
+
+.jCHwEi {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 37px;
+}
+
+.hDwxOh {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.gWKmpi {
+    width: 100%;
+    max-width: 1160px;
+    margin-inline: auto;
+}
+
+.hesftm {
+    display: flex;
+    gap: 23px;
+    margin-block: 24px 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hrrfwF {
+        padding: 30px 20px;
+        border-radius: 0px;
+    }
+
+    .jCHwEi {
+        -webkit-box-align: center;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .hDwxOh {
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 0px;
+        border: none;
+    }
+
+    .dycXVY {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .dfcGAu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 21px 0px;
+        margin-top: 33px;
+    }
+
+    .kqZATF {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .jSODfB {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .jSODfB p {
+            max-height: 70px;
+            overflow: hidden;
+        }
+
+    .kfYNWs {
+        margin-top: 50px;
+    }
+
+    .kAfSQH {
+        padding-inline: 56px;
+        margin-left: -16px;
+    }
+
+    .dKpdPp {
+        width: max-content;
+        padding-top: 23px;
+    }
+
+        .dKpdPp ul {
+            gap: 0px 20px;
+            list-style: none;
+        }
+
+    .hrrfwF {
+        padding: 30px 20px;
+        border-radius: 0px;
+    }
+
+    .fuIEkQ {
+        font-size: 20px;
+    }
+}
+
+.dycXVY {
+    display: flex;
+    margin: 0px;
+    color: rgb(28, 36, 45);
+    flex-wrap: wrap;
+}
+
+.hRAkpZ {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.dfcGAu {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.kqZATF {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.jSODfB {
+    margin-top: 56px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+    .jSODfB h2 {
+        font-size: 14px;
+        line-height: 100%;
+        font-weight: 700;
+        color: rgb(25, 70, 126);
+        margin-block: 0px 12px;
+    }
+
+    .jSODfB p {
+        font-size: 12px;
+        line-height: 21px;
+        color: rgb(73, 80, 87);
+        margin: 0px;
+    }
+
+.jLVlIZ {
+    width: 100%;
+    max-width: 484px;
+    margin-top: 50px;
+}
+
+    .jLVlIZ span {
+        display: block;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 500;
+        color: rgb(28, 36, 45);
+        margin-bottom: 10px;
+    }
+
+.fOEtJn {
+    position: relative;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+}
+
+.fOEtJn select {
+    appearance: none;
+    color: rgb(28, 36, 45);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(191, 191, 191);
+    padding: 16px;
+    transition: all 0.25s ease 0s;
+    font-size: 12px;
+    line-height: 14px;
+    width: 100%;
+}
+
+select {
+    word-wrap: normal;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.fOEtJn::after {
+    content: "";
+    background-image: url(data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 14 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13 1.5L7 7.5L1 1.5' stroke='%23002B4F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    transition: all 0.25s ease 0s;
+    pointer-events: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.kfYNWs {
+    width: 100%;
+    margin-top: 74px;
+}
+
+.SLStv {
+    width: 100%;
+    height: 40px;
+    background: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+.kAfSQH {
+    width: max-content;
+    height: 100%;
+    padding-inline: 117px;
+    background: rgb(25, 70, 126);
+    display: flex;
+    margin-left: -50px;
+    transform: skew(-35deg);
+}
+
+    .kAfSQH strong {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        transform: skew(35deg);
+    }
+
+.dKpdPp {
+    width: 100%;
+    max-width: 585px;
+    padding-top: 26px;
+    margin-inline: auto;
+}
+
+    .dKpdPp ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+        list-style: initial;
+    }
+
+        .dKpdPp ul li {
+            font-size: 12px;
+            line-height: 23px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+.hrrfwF {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 26px 30px 30px;
+    overflow: hidden;
+}
+
+.dwbuKq small {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(73, 80, 87);
+    margin-bottom: 20px;
+}
+
+.fuIEkQ {
+    display: block;
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: rgb(28, 36, 45);
+    margin-bottom: 8px;
+}
+
+.dwbuKq p {
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(73, 80, 87);
+}
+
+.cQNKVY {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 18px;
+    margin-top: 42px;
+    padding-bottom: 26px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.cWgpic {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-inline: 16px;
+}
+
+.fTvNSD {
+    position: relative;
+    width: 100%;
+}
+
+.lkIGKb {
+    margin-bottom: 25px;
+}
+
+.iKbpDS {
+    display: flex;
+    gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+    .iKbpDS input {
+        display: none;
+    }
+
+    .iKbpDS .checkbox {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        aspect-ratio: 1 / 1;
+        border: 1px solid rgb(0, 66, 134);
+        background: rgb(255, 255, 255);
+    }
+
+    .iKbpDS span {
+        font-size: 12px;
+        line-height: 14px;
+        color: rgb(0, 66, 134);
+    }
+
+img, svg {
+    vertical-align: middle;
+}
+
+.izSqbL {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.cPhcdk:disabled {
+    cursor: default;
+    font-weight: 500;
+    background: rgb(191, 191, 191);
+}
+
+.cPhcdk {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 48px;
+    flex: 1 1 0%;
+    background: linear-gradient(143.13deg, rgb(0, 66, 134) 16.07%, rgb(79, 153, 255) 86.47%);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.04em;
+}
+
+.fxzoau {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    white-space: nowrap;
+    border: 0px;
+    z-index: -1;
+}
+
+.fyeoMd {
+    position: sticky;
+    width: 100%;
+    max-width: 362px;
+    height: max-content;
+    top: 24px;
+    padding: 26px 22px;
+}
+
+.hrrfwF {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 26px 30px 30px;
+    overflow: hidden;
+}
+
+.kiIOZO {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: max-content;
+    height: 44px;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(143.13deg, rgb(0, 66, 134) 16.07%, rgb(79, 153, 255) 86.47%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-inline: 19px;
+    border-radius: 0px 8px 0px 0px;
+}
+
+.kMOALv > strong {
+    display: block;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: rgb(28, 36, 45);
+    margin-bottom: 25px;
+}
+
+.kMOALv > span {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(136, 136, 136);
+    margin-bottom: 10px;
+}
+
+.fTvNSD {
+    position: relative;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+}
+
+.kMOALv label + label {
+    margin-top: 26px;
+}
+
+.fOEtJn {
+    position: relative;
+    width: 100%;
+}
+
+.btqTUQ {
+    position: relative;
+    width: 100%;
+}
+
+.bJIBgy {
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    transition: all 0.25s ease 0s;
+    color: rgb(28, 36, 45);
+    border-radius: 8px;
+    left: 16px;
+    top: 20px;
+    cursor: text;
+    user-select: none;
+}
+
+.kMOALv textarea {
+    height: 86px;
+}
+
+.iKbpDS {
+    display: flex;
+    gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+    .iKbpDS input {
+        display: none;
+    }
+
+    .iKbpDS .checkbox {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        aspect-ratio: 1 / 1;
+        border: 1px solid rgb(0, 66, 134);
+        background: rgb(255, 255, 255);
+    }
+
+    .iKbpDS span {
+        font-size: 12px;
+        line-height: 14px;
+        color: rgb(0, 66, 134);
+    }
+
+.hEjPHH:disabled {
+    cursor: default;
+    font-weight: 500;
+    background: rgb(25, 70, 126);
+}
+
+.fPhBcD:disabled {
+    cursor: not-allowed;
+    opacity: 0.9;
+}
+
+.hEjPHH {
+    width: 100%;
+    transition: all 0.25s ease 0s;
+    margin-top: 26px;
+    background: rgb(51, 122, 183);
+}
+
+.fPhBcD {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(255, 255, 255);
+    background: rgb(25, 70, 126);
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px;
+    width: auto;
+}
