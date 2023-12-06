@@ -148,77 +148,30 @@
         </form>
     </div>
 
-  <div id="carouselExampleControls2" class="carousel slide w-100" data-bs-ride="carousel">
-  <div class="carousel-inner">
-      
-    <div class="carousel-item active">
-       <div class="d-flex flex-row">
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-    </div>
-   </div>
+  
 
-    <div class="carousel-item">
-       <div class="d-flex flex-row">
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-    </div>
-   </div>
-          
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-    <div id="carouselExampleControls3" class="carousel slide w-100" data-bs-ride="carousel">
-        <div class="carousel-inner">
-   <div class="carousel-item active">
-       <div class="d-flex flex-row">
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-    </div>
-   </div>
-
-    <div class="carousel-item">
-       <div class="d-flex flex-row">
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-      <img src="./img/imagem-nao-cadastrada.jpg" class="flex-grow-1 w-25" alt="..." />
-    </div>
-   </div>
-</div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
+    <asp:ListView ID="ListView1" runat="server" >
+        <ItemTemplate>
+    <tr>
+        <td>
+            <img src="./img/imagem-nao-cadastrada.jpg" />
+        </td>
+        <td>
+            <%# Eval("Descricao") %>
+        </td>
+    </tr>
+</ItemTemplate>
+    </asp:ListView>
+    
 <footer class="sc-7908d218-0 bXuRJb">
     <div class="sc-7908d218-1 eZIIQE">
         <div class="sc-7908d218-2 bRRDqx" >
-        <a class="foo" href="Default.aspx">Concessionária GPS</a>
-    
+        <a class="foo" href="Default.aspx"><h4>Concessionária GPS</h4></a>
+        <br />
+
         <div class="sc-7908d218-5 kKCeyj">
-            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-danger" type="submit">TABELA FIPE</a>
-            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-danger" type="submit">VENDAS DIRETAS</a>
+            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-dark" type="submit">TABELA FIPE</a>
+            <a href="" class="sc-7908d218-6 fGhtvJ btn btn-primary btn-dark" type="submit">VENDAS DIRETAS</a>
         </div>
     </div>
         <div class="sc-7908d218-7 jEGetU "><strong>INSTITUCIONAL</strong><ul><li>
