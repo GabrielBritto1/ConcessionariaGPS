@@ -505,7 +505,7 @@ button, input, optgroup, select, textarea {
     width: max-content;
     height: 100%;
     padding-inline: 117px;
-    background: rgb(25, 70, 126);
+    background: rgb(174, 49, 160);
     display: flex;
     margin-left: -50px;
     transform: skew(-35deg);
@@ -658,7 +658,7 @@ img, svg {
     justify-content: center;
     height: 48px;
     flex: 1 1 0%;
-    background: linear-gradient(143.13deg, rgb(0, 66, 134) 16.07%, rgb(79, 153, 255) 86.47%);
+    background: linear-gradient(143.13deg, rgb(174, 49, 160) 16.07%,rgb(251, 71, 231) 86.47%);
     font-size: 14px;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -708,7 +708,7 @@ img, svg {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: rgb(255, 255, 255);
-    background: linear-gradient(143.13deg, rgb(0, 66, 134) 16.07%, rgb(79, 153, 255) 86.47%);
+    background: linear-gradient(143.13deg, ae31a0 16.07%, rgb(174, 49, 160) 86.47%);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -762,7 +762,7 @@ label {
     font-size: 12px;
     line-height: 14px;
     transition: all 0.25s ease 0s;
-    color: rgb(28, 36, 45);
+    color: rgb(251, 71, 231);
     border-radius: 8px;
     left: 16px;
     top: 20px;
@@ -807,7 +807,7 @@ label {
 .hEjPHH:disabled {
     cursor: default;
     font-weight: 500;
-    background: rgb(25, 70, 126);
+    background: rgb(174, 49, 160);
 }
 
 .fPhBcD:disabled {
