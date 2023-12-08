@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="12a1742851fa49d4bc0d756b1e48614e" Name="Diagram1">
+        <EntityTypeShape EntityType="GPS_BDModel.blindagem" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.cambio" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.categoria" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.combustivel" Width="1.5" PointX="5.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.cor" Width="1.5" PointX="5.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.marca" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.modelo" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.opcional" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.usuario" Width="1.5" PointX="5.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.veiculo" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GPS_BDModel.versao" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_blindagem" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_cambio" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_combustivel" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_cor" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fK_modelo_marca" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_versao_modelo" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_UsuarioVeiculo" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.fk_veiculo_versao" ManuallyRouted="false" />
+        <AssociationConnector Association="GPS_BDModel.opcionaisveiculo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

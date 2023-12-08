@@ -286,7 +286,7 @@ body {
     --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
 }
 
-.hrrfwF {
+.infomacaoCarro {
     width: 100%;
     background: rgb(255, 255, 255);
     border-radius: 8px;
@@ -294,14 +294,14 @@ body {
     overflow: hidden;
 }
 
-.jCHwEi {
+.headeInfomacaoCarro {
     display: flex;
     align-items: flex-start;
     width: 100%;
     gap: 37px;
 }
 
-.hDwxOh {
+.nomesCarros {
     position: relative;
     display: flex;
     -webkit-box-align: center;
@@ -326,73 +326,62 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .hrrfwF {
+    .infomacaoCarro {
         padding: 30px 20px;
         border-radius: 0px;
     }
 
-    .jCHwEi {
+    .headeInfomacaoCarro {
         -webkit-box-align: center;
         align-items: center;
         gap: 11px;
     }
 
-    .hDwxOh {
+    .nomesCarros {
         -webkit-box-align: center;
         align-items: center;
         padding: 0px;
         border: none;
     }
 
-    .dycXVY {
+    .nomesCarros2 {
         flex-direction: column;
         gap: 8px;
     }
 
-    .dfcGAu {
+    .especCarros {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 21px 0px;
         margin-top: 33px;
     }
 
-    .kqZATF {
+    .descCarros {
         display: flex;
         flex-direction: column;
         gap: 2px;
     }
 
-    .jSODfB {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-        .jSODfB p {
-            max-height: 70px;
-            overflow: hidden;
-        }
-
-    .kfYNWs {
+    .infoItens {
         margin-top: 50px;
     }
 
-    .kAfSQH {
+    .titleInfoItens {
         padding-inline: 56px;
         margin-left: -16px;
     }
 
-    .dKpdPp {
+    .infoItensCarros {
         width: max-content;
         padding-top: 23px;
     }
 
-        .dKpdPp ul {
+        .infoItensCarros ul {
             gap: 0px 20px;
             list-style: none;
         }
 
-    .hrrfwF {
+    .infomacaoCarro {
         padding: 30px 20px;
         border-radius: 0px;
     }
@@ -402,28 +391,21 @@ body {
     }
 }
 
-.dycXVY {
+.nomesCarros2 {
     display: flex;
     margin: 0px;
     color: rgb(28, 36, 45);
     flex-wrap: wrap;
 }
 
-.hRAkpZ {
-    display: flex;
-    -webkit-box-pack: end;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.dfcGAu {
+.especCarros {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
     margin-top: 41px;
 }
 
-.kqZATF {
+.descCarros {
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -449,21 +431,6 @@ body {
         line-height: 21px;
         color: rgb(73, 80, 87);
         margin: 0px;
-    }
-
-.jLVlIZ {
-    width: 100%;
-    max-width: 484px;
-    margin-top: 50px;
-}
-
-    .jLVlIZ span {
-        display: block;
-        font-size: 14px;
-        line-height: 17px;
-        font-weight: 500;
-        color: rgb(28, 36, 45);
-        margin-bottom: 10px;
     }
 
 .fOEtJn {
@@ -522,19 +489,19 @@ button, input, optgroup, select, textarea {
     box-sizing: border-box;
 }
 
-.kfYNWs {
+.infoItens {
     width: 100%;
     margin-top: 74px;
 }
 
-.SLStv {
+.infoItens2 {
     width: 100%;
     height: 40px;
     background: rgb(245, 245, 245);
     overflow: hidden;
 }
 
-.kAfSQH {
+.titleInfoItens {
     width: max-content;
     height: 100%;
     padding-inline: 117px;
@@ -544,7 +511,7 @@ button, input, optgroup, select, textarea {
     transform: skew(-35deg);
 }
 
-    .kAfSQH strong {
+    .titleInfoItens strong {
         display: flex;
         -webkit-box-align: center;
         align-items: center;
@@ -555,28 +522,28 @@ button, input, optgroup, select, textarea {
         transform: skew(35deg);
     }
 
-.dKpdPp {
+.infoItensCarros {
     width: 100%;
     max-width: 585px;
     padding-top: 26px;
     margin-inline: auto;
 }
 
-    .dKpdPp ul {
+    .infoItensCarros ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 0px;
         list-style: initial;
     }
 
-        .dKpdPp ul li {
+        .infoItensCarros ul li {
             font-size: 12px;
             line-height: 23px;
             font-weight: 500;
             text-transform: uppercase;
         }
 
-.hrrfwF {
+.infomacaoCarro {
     width: 100%;
     background: rgb(255, 255, 255);
     border-radius: 8px;
@@ -720,7 +687,7 @@ img, svg {
     padding: 26px 22px;
 }
 
-.hrrfwF {
+.infomacaoCarro {
     width: 100%;
     background: rgb(255, 255, 255);
     border-radius: 8px;
