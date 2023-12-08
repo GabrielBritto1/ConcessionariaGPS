@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,500;1,6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,500;1,6..12,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 * {
@@ -43,6 +43,7 @@ header .navbar-brand .foo {
     color: #fb47e7;
     margin-right: 2.5em;
 }
+
 
 header .navbar-brand:hover .foo:hover {
     color: #b950dd;
@@ -166,6 +167,7 @@ header .title-header {
     width: 100px;
 }
 
+
 .fGhtvJ {
     border: 1px solid #fb47e7;
     width: 100%;
@@ -184,13 +186,22 @@ header .title-header {
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+    color: black;
+}
+a{
+    color: black;
+}
+
 .jEGetU {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     -webkit-box-pack: center;
     justify-content: center;
-    text-decoration: none;
+    list-style: none;
+    color: black;
 }
 
     .jEGetU strong {
@@ -240,8 +251,7 @@ header .title-header {
     justify-content: center;
     height: 40px;
     width: 100%;
-    background: var(--color-primary);
-    font-family: var(--font-family);
+    background: #fb47e7;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
